@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Sourabh</title>
+    <link rel="stylesheet" href="port.css">
+    <script src="https://kit.fontawesome.com/d753f80e2a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+        <nav>
+            <img src="Sobulogo-removebg-preview.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#mywork">Port</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Full Stack Develeper</p>
+          <h1>Hi, I'm <span>Sourabh</span> <br> from India</h1>
+        </div>
+    </div>
+  </div>
+  <!--                    About             -->
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+         <div class="about-col-1">
+          <img src="about.jpg" alt="Sobu image">
+         </div>
+         <div class="about-col-2">
+           <h1 class="sub-title"> About me </h1> 
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi vero commodi, velit ipsa impedit asperiores totam, aliquam omnis odit doloribus dicta harum consequatur voluptatem atque voluptate?t sint obcaecati velit temporibus vitae dolores quo pariatur explicabo praesentium voluptate perspiciatis atque adipisci, soluta expedita reiciendis minus possimus voluptates placeat! Nobis alias similique neque ut.
+            Minima, cumque in culpa optio mollitia fuga corrupti, quam neque quas nostrum ducimus maiores tenetur harum iusto reprehenderit, nisi ea earum dicta rerum quibusdam voluptatum enim. Ea non incidunt corporis?
+           </p>
+           <div class="tab-title">
+            <p class="tab-links active-link"  onclick="opentab('Skills')">Skills</p>
+            <p class="tab-links"  onclick="opentab('Experience')">Experience</p>
+            <p class="tab-links"  onclick="opentab('Education')">Education</p>
+           </div>
+           <div class="tab-content active-tab" id="Skills">
+             <ul>
+              <li>Full Stack  Developer <br><span>Creating responsive sites</span></li>
+              <li>Languages <span><br>HTML, CSS, JavaScript</span> </li>
+              <li>Frameworks/Libraries <span><br>React, Bootstrap, Tailwind CSS</span> </li>
+              <li>Skills<span><br>Responsive Design, Cross-Browser Compatibility, Performance Optimization</span> </li>
+             </ul>
+           </div>
+           <div class="tab-content" id="Experience">
+            <ul>
+             <li> Second Full Stack  Developer <br><span>Creating responsive sites</span></li>
+             <li>Languages <span><br>HTML, CSS, JavaScript</span> </li>
+             <li>Frameworks/Libraries <span><br>React, Bootstrap, Tailwind CSS</span> </li>
+             <li>Skills<span><br>Responsive Design, Cross-Browser Compatibility, Performance Optimization</span> </li>
+            </ul>
+          </div>
+          <div class="tab-content" id="Education">
+            <ul>
+             <li>Third Full Stack  Developer <br><span>Creating responsive sites</span></li>
+             <li>Languages <span><br>HTML, CSS, JavaScript</span> </li>
+             <li>Frameworks/Libraries <span><br>React, Bootstrap, Tailwind CSS</span> </li>
+             <li>Skills<span><br>Responsive Design, Cross-Browser Compatibility, Performance Optimization</span> </li>
+            </ul>
+          </div>
+         </div>
+      </div>
+    </div>
+  </div>
+
+  <!------------------Services------------------->
+
+  <div id="Services">
+     <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web designer</h2>
+          <p>
+          Full Stack
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia nesciunt illum explicabo adipisci aliquam labore nam maiores dolorum esse omnis. Saepe fugit esse soluta necessitatibus! Deleniti omnis porro perspiciatis alias.
+          </p>
+        <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store-ios"></i>
+           <h2>UI/UX</h2>
+          <p>
+          Full Stack
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia nesciunt illum explicabo adipisci aliquam labore nam maiores dolorum esse omnis. Saepe fugit esse soluta necessitatibus! Deleniti omnis porro perspiciatis alias.
+          </p>
+        <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop-simple"></i>
+          <h2>App Design</h2>
+          <p>Full Stack
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia nesciunt illum explicabo adipisci aliquam labore nam maiores dolorum esse omnis. Saepe fugit esse soluta necessitatibus! Deleniti omnis porro perspiciatis alias.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!--                    My work          -->
+
+    <div id="mywork">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+              <img src="sobu.jpg" alt="">
+              <div class="layer">
+                <h3>Social link</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi adipisci necessitatibus consequatur assumenda excepturi inventore sunt alias ipsum. Perspiciatis ducimus doloribus incidunt rerum porro, voluptate et. Tempore veniam eius rem.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="sobu.jpg" alt="">
+              <div class="layer">
+                <h3>Insta link</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi adipisci necessitatibus consequatur assumenda excepturi inventore sunt alias ipsum. Perspiciatis ducimus doloribus incidunt rerum porro, voluptate et. Tempore veniam eius rem.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="sobu.jpg" alt="">
+              <div class="layer">
+                <h3>Facebook link</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi adipisci necessitatibus consequatur assumenda excepturi inventore sunt alias ipsum. Perspiciatis ducimus doloribus incidunt rerum porro, voluptate et. Tempore veniam eius rem.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+              </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+         
+      </div>
+    </div>
+
+    <!--      contact form        -->
+         
+     <div id="contact">
+      <div class="container">
+        <div class="row">
+         <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i> contactsobu@gmail.com</p>
+          <p> <i class="fa-solid fa-phone"></i> 734752****</p>
+          
+          <div class="social-icon">
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="dev\sobu resume.pdf" download class="btn btn2">Download Cv</a>
+         </div> 
+         <div class="contact-right">
+          <form name="submit-to-google-sheet" id="myform">
+            <input type="text" placeholder="Your name" name="Name" required>
+            <input type="email" name="Email" placeholder="Enter your Email">
+            <textarea name="Message" rows="6"></textarea>
+            <button type="submit" class="btn btn2 btn3">Submit</button>
+          </form>
+          <span id="msg"></span>
+         </div>
+        </div>
+      </div>
+      <div class="copywrite">
+        <i class="fa-solid fa-copyright first-icon"></i>
+        <p> Copyright @sobu . Made by <i class="fa-solid fa-heart"></i> Sourabh itself</p>
+      </div>
+     </div>
+
+
+
+  <script src="port.js"></script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzEFYszv-9REXz7oOhvqFCl3ctutDBxH2TS0Xg3B4jK2t49iHG6xBMfi-y3z1Z7kQAr/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Mesaage sent successfully"
+          setTimeout(function(){
+             msg.innerHTML = ""
+          },4000)
+         form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+ 
+   
+</body>
+</html>
