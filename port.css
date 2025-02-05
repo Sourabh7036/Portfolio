@@ -133,7 +133,8 @@ nav ul li a:hover::after{
     width:80%;
 }
 .tab-content ul li{
-  list-style: none;
+  /* list-style: none; */
+  color: wheat;
   margin: 8px 0px;
 }
 .tab-content ul li span{
